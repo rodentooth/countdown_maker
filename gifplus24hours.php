@@ -23,7 +23,7 @@ $font = array(
   'angle' => 0, // Angle of the text
   'x-offset' => 20, // The larger the number the further the distance from the left hand side, 0 to align to the left.
   'y-offset' => 130, // The vertical alignment, trial and error between 20 and 60.
-  'file' => __DIR__ . DIRECTORY_SEPARATOR . '../../../font/roboto-regular.ttf', // Font path
+  'file' => __DIR__ . DIRECTORY_SEPARATOR . 'roboto-regular.ttf', // Font path
   'color' => imagecolorallocate($image, 51, 51, 51), // RGB Colour of the text
 );
 for($i = 0; $i <= 130; $i++){
